@@ -1,0 +1,11 @@
+touch .gitigonore
+git config --global user.name your name
+git config --global user.email your mail
+git init
+git add .
+git commit -m "initial commit"
+git status
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+tail <path to id_rsa.pub>
+git remote add origin <ssh url.git>
+git push orgin master
